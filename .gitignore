@@ -1,4 +1,5 @@
 target/
+src/main/resources/static
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -22,3 +23,46 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+src/main/frontend/dist
+src/main/frontend/dist-server
+src/main/frontend/tmp
+src/main/frontend/out-tsc
+
+# dependencies
+src/main/frontend/node_modules
+
+# IDEs and editors
+src/main/frontend/.idea
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+src/main/frontend/.sass-cache
+src/main/frontend/connect.lock
+src/main/frontend/coverage
+src/main/frontend/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+src/main/frontend/typings
+
+# e2e
+src/main/frontend/e2e/*.js
+src/main/frontend/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
